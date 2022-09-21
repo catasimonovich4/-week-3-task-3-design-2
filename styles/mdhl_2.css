@@ -131,9 +131,11 @@ h2 {
 }
 
 .rules-text2 {
+  display: inline;
   font-size: 16px;
   margin-top: -17px;
   margin-bottom: 3px;
+  padding-bottom: 0px;
 }
 
 .circle-li {
@@ -165,4 +167,12 @@ h2 {
   margin-top: -52px;
   margin-left: 210px;
   margin-bottom: 45px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.li-1-CF {
+  padding: 15px 0px 0px 0px;
 }
