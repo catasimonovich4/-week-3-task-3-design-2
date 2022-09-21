@@ -74,12 +74,11 @@ section {
   border: 1px solid;
   display: flex;
   justify-content: center;
-  
 }
 
 h2 {
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 24px;
 }
 
 .h-container {
@@ -162,3 +161,8 @@ h2 {
   margin: 5px 0px;
 }
 
+.first-p-rule {
+  margin-top: -52px;
+  margin-left: 210px;
+  margin-bottom: 45px;
+}
