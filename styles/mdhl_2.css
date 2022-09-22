@@ -4,6 +4,7 @@ body {
 }
 
 nav {
+  position: relative;
   width: 100%;
 }
 
@@ -17,8 +18,7 @@ h1 {
   list-style-type: none;
   position: absolute;
   top: 7%;
-  right: 43px;
- /*    */
+  right: 3%;
   justify-content: space-around;
 }
 
@@ -76,9 +76,19 @@ section {
   justify-content: center;
 }
 
-h2 {
+.rules-main-title {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+.rules-main-title > h2 {
   margin-top: 5px;
   margin-bottom: 24px;
+}
+
+h2 {
+  margin: 5px;
 }
 
 .h-container {
