@@ -55,6 +55,11 @@ section {
   display: flex;
 }
 
+.gamein-sec {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo-container {
   width: 15%;
 }
@@ -186,3 +191,57 @@ span {
 .li-1-CF {
   padding: 15px 0px 0px 0px;
 }
+
+.intro-G {
+  margin-top: 20px;
+}
+
+table {
+  width: 70%;
+  margin-left: 90px;
+  margin-bottom: 40px;
+}
+
+th {
+  padding: 5px 0px;
+  text-align: left;
+  /* background-color: rgb(0, 0, 0, 0.9); */
+}
+
+tr {
+  text-align: left; 
+}
+
+td {
+  /*     border-bottom: 1px solid #ddd; */
+      padding: 4px 0px;
+  }
+  
+  .date {
+      text-align: center;
+  }
+  
+  .group-info1 {
+      padding: 5px;
+  }
+  
+  .group-info1 > p {
+      display: inline;
+  }
+  
+  .more-info2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .group-info2 {
+      padding: 5px;
+  }
+  
+  .group-info2 > p {
+      display: inline;
+  }
+  
+  .phone {
+      margin-left: 260px;
+  }
