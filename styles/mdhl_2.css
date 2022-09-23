@@ -17,8 +17,8 @@ h1 {
   display: flex;
   list-style-type: none;
   position: absolute;
-  top: 7%;
-  right: 3%;
+  top: 5%;
+  right: 0%;
   justify-content: space-around;
 }
 
@@ -32,7 +32,7 @@ nav li {
   margin: 0px 5px;
   color: white;
   text-align: center;
-  box-shadow: 3px 3px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
   border: 2px solid rgb(49, 49, 49);
 }
 
@@ -53,11 +53,6 @@ nav li {
 
 section {
   display: flex;
-}
-
-.gamein-sec {
-  display: flex;
-  flex-direction: column;
 }
 
 .logo-container {
@@ -97,30 +92,30 @@ h2 {
 }
 
 .h-container {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .p-container {
-    padding-left: 30px;
-    margin: -12px;
+  padding-left: 30px;
+  margin: -12px;
 }
 
 .mail {
-    color: blue;
-    text-decoration: underline black;
+  color: blue;
+  text-decoration: underline black;
 }
 
 .pa-container {
-    text-indent: 1rem;
-    margin: -12px;
-    padding-left: 15px;
-    font-size: 16px;
+  text-indent: 1rem;
+  margin: -12px;
+  padding-left: 15px;
+  font-size: 16px;
 }
 
 .t-container {
-    width: 85%;
-    padding: 30px 20px;
-  }
+  width: 85%;
+  padding: 30px 20px;
+}
 
 .rules-container {
   width: 85%;
@@ -192,6 +187,11 @@ span {
   padding: 15px 0px 0px 0px;
 }
 
+.GI-container {
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
 .intro-G {
   margin-top: 20px;
 }
@@ -209,39 +209,39 @@ th {
 }
 
 tr {
-  text-align: left; 
+  text-align: left;
 }
 
 td {
   /*     border-bottom: 1px solid #ddd; */
-      padding: 4px 0px;
-  }
-  
-  .date {
-      text-align: center;
-  }
-  
-  .group-info1 {
-      padding: 5px;
-  }
-  
-  .group-info1 > p {
-      display: inline;
-  }
-  
-  .more-info2 {
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
-  
-  .group-info2 {
-      padding: 5px;
-  }
-  
-  .group-info2 > p {
-      display: inline;
-  }
-  
-  .phone {
-      margin-left: 260px;
-  }
+  padding: 4px 0px;
+}
+
+.date {
+  text-align: center;
+}
+
+.group-info1 {
+  padding: 5px;
+}
+
+.group-info1 > p {
+  display: inline;
+}
+
+.more-info2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.group-info2 {
+  padding: 5px;
+}
+
+.group-info2 > p {
+  display: inline;
+}
+
+.phone {
+  margin-left: 260px;
+}
